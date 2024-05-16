@@ -20,14 +20,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
         rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />{
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
 </head>
 
 <body id="page-top">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">LineXS</a>
+            <a class="navbar-brand animate__animated animate__fadeIn animate__fast" href="#page-top">
+                <img src="./assets/img/brand.svg" alt="Logo" height="38px" class="d-inline-block align-text-top">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -61,23 +67,26 @@
                 <div class="col-lg-6">
                     <!-- Mashead text and app badges-->
                     <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 class="display-1 lh-1 mb-3">Criando Software com Paixão, Moldando o Amanhã!</h1>
+                        <h1 class="display-1 lh-1 mb-3 fw-lighter animate__animated  animate__fadeInLeft animate__fast"
+                            id="slogan">Criando Software com Paixão, Moldando o
+                            Amanhã!</h1>
 
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <!-- Masthead device mockup feature-->
-                    <div class="masthead-device-mockup">
+                    <div class="masthead-device-mockup animate__animated animate__fadeInRight animate__fast">
 
                         <div class="d-none d-lg-block"
-                            style=" position: absolute; border-radius: 100%; background-color: #004AAD; width: 400px; height: 400px; box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
+                            style=" position: absolute; border-radius: 100%; background-color: #0F4066; width: 400px; height: 400px; box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);">
                         </div>
 
 
                         <div class="device-wrapper">
                             <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                                 <div class="screen bg-black">
-                                    <img src="./assets/img/storie-fundo-azul.jpg" width="100%" height="100%" />
+                                    <img src="./assets/img/simbologia-storie-fundo-azul.svg" width="100%"
+                                        height="100%" />
                                 </div>
                             </div>
                         </div>
@@ -92,7 +101,7 @@
             <div class="row gx-5 justify-content-center">
                 <div class="col-xl-12">
                     <!-- <div class="text-white fs-2 mb-3 fw-bold">LineXS</div> -->
-                    <div class="h2 fs-1 text-white mb-4">
+                    <div class="h3 fw-light text-white mb-4 animate__animated animate__slideInUp">
                         Comprometidos em fornecer uma solução que simplifique a vida dos empreendedores e os capacite a
                         alcançar todo o seu potencial.
                     </div>
@@ -117,7 +126,7 @@
                                 <div class="text-center">
 
                                     <div class="d-flex justify-content-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#004AAD"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#0f4066"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                                             stroke-linecap="round" stroke-linejoin="round"
                                             class="text-gradient d-block mb-3">
@@ -128,7 +137,7 @@
                                             <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
                                         </svg>
                                     </div>
-                                    <h3 class="font-alt">Gestão de Clientes</h3>
+                                    <h3 class="font-alt fs-4 ">Gestão de Clientes</h3>
                                     <p class="text-muted mb-0">
                                         Centralize e organize dados de clientes de forma eficiente.
                                     </p>
@@ -138,7 +147,7 @@
                                 <!-- Feature item-->
                                 <div class="text-center">
                                     <div class="d-flex justify-content-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#004AAD"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#0f4066"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                                             stroke-linecap="round" stroke-linejoin="round"
                                             class="text-gradient d-block mb-3">
@@ -147,7 +156,7 @@
                                                 d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6 -6a6 6 0 0 1 -8 -8l3.5 3.5" />
                                         </svg>
                                     </div>
-                                    <h3 class="font-alt">Gestão de Serviços</h3>
+                                    <h3 class="font-alt fs-4 ">Gestão de Serviços</h3>
                                     <p class="text-muted mb-0">
                                         Gerencie e acompanhe os serviços prestados com facilidade.
                                     </p>
@@ -159,7 +168,7 @@
                                 <!-- Feature item-->
                                 <div class="text-center">
                                     <div class="d-flex justify-content-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#004AAD"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#0f4066"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                                             stroke-linecap="round" stroke-linejoin="round"
                                             class="text-gradient d-block mb-3">
@@ -170,7 +179,7 @@
                                             <path d="M12 12l-8 -4.5" />
                                         </svg>
                                     </div>
-                                    <h3 class="font-alt">Gestão de Produtos</h3>
+                                    <h3 class="font-alt fs-4 ">Gestão de Produtos</h3>
                                     <p class="text-muted mb-0">
                                         Controle e otimize o estoque de produtos de maneira integrada.
                                     </p>
@@ -180,7 +189,7 @@
                                 <!-- Feature item-->
                                 <div class="text-center">
                                     <div class="d-flex justify-content-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#004AAD"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" color="#0f4066"
                                             viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
                                             stroke-linecap="round" stroke-linejoin="round"
                                             class="text-gradient d-block mb-3">
@@ -192,7 +201,7 @@
                                             <path d="M18 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
                                         </svg>
                                     </div>
-                                    <h3 class="font-alt">Gestão de Fornecedores</h3>
+                                    <h3 class="font-alt fs-4 ">Gestão de Fornecedores</h3>
                                     <p class="text-muted mb-0">
                                         Mantenha uma relação sólida e transparente com seus fornecedores.
                                     </p>
@@ -213,7 +222,7 @@
             <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
                 <div class="col-12 col-lg-5">
                     <h2 class="display-4 lh-1 mb-4">Simplicidade, intuição e facilidade.</h2>
-                    <p class="lead fw-normal text-muted mb-5 mb-lg-0">
+                    <p class="lead text-muted mb-5 mb-lg-0">
                         Nosso ERP simplifica processos empresariais complexos com eficiência.
                         <br />
                         <br />
@@ -223,7 +232,7 @@
                 </div>
                 <div class="col-sm-8 col-md-6">
                     <div class="px-5 px-sm-0">
-                        <img class="img-fluid rounded-circle" src="./assets/img/icon-fundo-azul.jpg"
+                        <img class="img-fluid rounded-circle" src="./assets/img/simbologia-fundo-azul.svg"
                             style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" />
                     </div>
                 </div>
@@ -259,7 +268,10 @@
     <footer class="bg-black text-center py-3">
         <div class="container px-5">
             <div class="text-white-50 small">
-                <div class="mb-2">&copy; LineXS 2023.</div>
+                <div class="mb-2">
+                    &copy; LineXS
+                    <script>document.write(new Date().getFullYear())</script>
+                </div>
             </div>
         </div>
     </footer>
